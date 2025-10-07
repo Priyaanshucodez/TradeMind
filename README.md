@@ -42,17 +42,17 @@ INPUT:  ["AAPL", "MSFT", "GOOGL"]  →  AGENT PROCESSING  →  OUTPUT: Complete 
 
 ```mermaid
 flowchart TB
-    UI[🖥️ Streamlit Interface] --> AGENT[🤖 LangChain Agent Brain]
-    CONFIG[📋 config.yaml<br/>Stock Universe] --> AGENT
+    UI[🖥️ Streamlit Interface] --> AGENT[🤖 TradeMind]
+    CONFIG[📋 config.yaml<br/>Stock Exchange] --> AGENT
     
     AGENT --> DL[📊 Data Layer<br/>yfinance + FRED]
-    AGENT --> FE[⚙️ Feature Engine<br/>Technical Indicators]
-    AGENT --> RD[🔍 Regime Detection<br/>Market Analysis]
+    AGENT --> FE[⚙️ Feature Engine]
+    AGENT --> RD[🔍 Market Analysis]
     AGENT --> SG[🧠 Strategy Generation<br/>LLM-Powered]
     
-    SG --> BT[⚡ Backtest Engine<br/>vectorbt]
-    BT --> VIZ[📈 Visualization<br/>Interactive Charts]
-    VIZ --> RESULTS[📋 Strategy Reports<br/>Mathematical Formulas]
+    SG --> BT[⚡ Backtest Engine]
+    BT --> VIZ[📈 Visualization]
+    VIZ --> RESULTS[📋 Strategy Reports]
     
     subgraph "🤖 Autonomous Agent Layer"
         AGENT
@@ -72,9 +72,9 @@ flowchart TB
     end
     
     classDef agent fill:#ffd700,stroke:#333,stroke-width:3px
-    classDef process fill:#e1f5fe,stroke:#333,stroke-width:2px
-    classDef output fill:#c8e6c9,stroke:#333,stroke-width:2px
-    classDef input fill:#fff3e0,stroke:#333,stroke-width:2px
+    classDef process fill:#e1f5fe,stroke:#333,stroke-width:3px
+    classDef output fill:#c8e6c9,stroke:#333,stroke-width:3px
+    classDef input fill:#fff3e0,stroke:#333,stroke-width:3px
     
     class UI,CONFIG input
     class AGENT,SG agent
