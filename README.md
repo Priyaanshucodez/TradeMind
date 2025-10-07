@@ -101,3 +101,37 @@ flowchart TB
 - **📊 matplotlib + plotly**: Professional trading charts
 - **💾 Parquet**: Efficient data storage format
 
+trademind/
+├── config.yaml
+├── requirements.txt
+├── run_app.py
+├── src/
+│   ├── agent/
+│   │   ├── langchain_planner.py
+│   │   ├── policy.py
+│   │   └── runner.py
+│   ├── data/
+│   │   ├── ingest.py
+│   │   └── schemas.py
+│   ├── features/
+│   │   ├── engine.py
+│   │   └── regime.py
+│   ├── strategies/
+│   │   ├── momentum.py
+│   │   ├── mean_reversion.py
+│   │   └── strategy_registry.py
+│   ├── backtest/
+│   │   ├── runner.py
+│   │   ├── metrics.py
+│   │   └── simple_backtest.py
+│   ├── visualization/
+│   │   └── plots.py
+│   ├── app/
+│   │   └── streamlit_app.py
+│   └── utils/
+│       ├── config.py
+│       └── logging.py
+├── data_store/
+├── figures/
+├── tests/
+
