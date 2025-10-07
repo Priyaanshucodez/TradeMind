@@ -101,6 +101,7 @@ flowchart TB
 - **📊 matplotlib + plotly**: Professional trading charts
 - **💾 Parquet**: Efficient data storage format
 
+...
 trademind/
 ├── config.yaml
 ├── requirements.txt
@@ -134,4 +135,5 @@ trademind/
 ├── data_store/
 ├── figures/
 ├── tests/
+...
 
