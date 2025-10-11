@@ -1,5 +1,9 @@
 # TradeMind
-To build autonomous quantitative trading research platform that transforms stock lists into fully backtested strategies using AI agents, real market data, and mathematical formulations, all without requiring any coding.
+ To design and build a full web-based intelligent Quant Trading Assistant that
+ leverages real-time market data, integrates with trading APIs, and provides
+ intelligent resTo design and build a full web-based intelligent Quant Trading
+ Assistant that leverages real-time market data, integrates with trading APIs, and
+ provides intelligent responses using Gemini's model
 
 ## 🚀 Revolutionizing Quantitative Finance with Agentic AI
 
