@@ -1,8 +1,0 @@
-stocks: ["AAPL", "MSFT", "GOOGL",TSLA","NVDA"]
-strategy: "momentum"
-risk_level: "medium"
-backtest:
-  start: "2023-01-01"
-  end: "2025-01-01"
-data_path: "data_store"
-
