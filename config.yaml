@@ -1,0 +1,25 @@
+
+data_path: data_store
+
+universe:
+  - AAPL
+  - MSFT
+  - GOOGL
+  - TSLA
+  - NVDA
+  - SPA
+
+vix_ticker: "^VIX"
+
+data:
+  yfinance_period: "1y"
+  fred_series:
+    DGS10: "10-Year Treasury Constant Maturity Rate"
+    DGS2: "2-Year Treasury Constant Maturity Rate"
+
+strategy: "momentum"
+risk_level: "medium"
+
+backtest:
+  start: "2023-01-01"
+  end: "2025-01-01"

@@ -1,0 +1,11 @@
+pandas
+numpy
+yfinance
+scikit-learn
+matplotlib
+streamlit
+fastapi
+uvicorn
+pyyaml
+langchain
+openai   # If using LLM API
