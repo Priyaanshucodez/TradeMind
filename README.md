@@ -5,6 +5,10 @@
  Assistant that leverages real-time market data, integrates with trading APIs, and
  provides intelligent responses using Gemini's model
 
+ To check the prototype refer to this link 
+ 
+https://trademind-6cjoq6wa3vvaaael2n9qxr.streamlit.app/
+
 ## 🚀 Revolutionizing Quantitative Finance with Agentic AI
 
 *Transform stock selection into complete trading strategies in < 5 minutes through autonomous AI agents*
