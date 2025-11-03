@@ -8,4 +8,10 @@ fastapi
 uvicorn
 pyyaml
 langchain
-openai   # If using LLM API
+openai   # If using LLM APIt
+fredapi
+python-dotenv
+plotly
+dash
+requests
+
