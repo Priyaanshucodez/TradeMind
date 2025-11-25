@@ -28,7 +28,7 @@ Traditional quantitative trading requires:
 
 ## 💡 Our Solution: Complete Agentic Automation
 
-**AgentQuant** is the first truly autonomous quantitative trading research platform that:
+**TradeMind** is the first truly autonomous quantitative trading research platform that:
 
 ✅ **Abstracts All Quant Work**: Input stock symbols → Output complete strategies  
 ✅ **Mathematical Formulation**: Auto-generates strategy equations and logic  
